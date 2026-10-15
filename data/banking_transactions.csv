@@ -1,0 +1,101 @@
+transaction_id,customer_id,customer_name,transaction_date,transaction_time,transaction_type,amount,merchant_category,account_type,channel,status
+TXN001,CUST011,Neo Mthembu,2026-02-05,13:14:08,Purchase,3323.34,Pharmacy,Cheque,Mobile Banking,Successful
+TXN002,CUST002,Thabo Nkosi,2026-03-06,06:35:12,Purchase,3232.03,Pharmacy,Savings,Card,Successful
+TXN003,CUST005,Oratile Khumalo,2026-01-01,11:44:27,Withdrawal,1100.00,Cash Withdrawal,Cheque,ATM,Failed
+TXN004,CUST006,Lesedi Ndlovu,2026-02-18,09:22:54,Purchase,1570.76,Restaurants,Cheque,Mobile Banking,Successful
+TXN005,CUST015,Tebogo Dlamini,2026-03-12,15:53:40,Purchase,2796.69,Entertainment,Savings,Card,Successful
+TXN006,CUST001,Lebo Mokoena,2026-02-07,08:54:14,Transfer,13030.63,Transfer,Savings,Mobile Banking,Successful
+TXN007,CUST006,Lesedi Ndlovu,2026-02-15,12:42:17,Purchase,3168.63,Pharmacy,Cheque,Card,Successful
+TXN008,CUST004,Kagiso Dlamini,2026-02-18,14:59:40,Purchase,3107.64,Fuel,Savings,Card,Successful
+TXN009,CUST001,Lebo Mokoena,2026-02-21,14:04:13,Withdrawal,1900.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN010,CUST015,Tebogo Dlamini,2026-01-19,14:08:15,Transfer,11238.59,Transfer,Savings,Mobile Banking,Successful
+TXN011,CUST003,Naledi Molefe,2026-01-12,07:55:07,Transfer,2504.41,Transfer,Savings,Online Banking,Successful
+TXN012,CUST010,Refilwe Naidoo,2026-03-09,14:35:55,Deposit,9453.09,Cash Deposit,Savings,Branch,Successful
+TXN013,CUST007,Tshepo Maseko,2026-01-01,14:32:48,Purchase,832.68,Groceries,Savings,Card,Successful
+TXN014,CUST013,Katlego Nkosi,2026-03-09,06:38:20,Purchase,2216.62,Groceries,Savings,Mobile Banking,Successful
+TXN015,CUST004,Kagiso Dlamini,2026-01-11,08:46:31,Withdrawal,300.00,Cash Withdrawal,Cheque,ATM,Failed
+TXN016,CUST003,Naledi Molefe,2026-03-19,19:13:59,Purchase,2442.96,Pharmacy,Cheque,Mobile Banking,Successful
+TXN017,CUST011,Neo Mthembu,2026-02-26,22:28:07,Transfer,3906.61,Transfer,Savings,Online Banking,Successful
+TXN018,CUST004,Kagiso Dlamini,2026-01-01,08:45:40,Transfer,1118.39,Transfer,Cheque,Mobile Banking,Successful
+TXN019,CUST004,Kagiso Dlamini,2026-03-04,12:34:08,Purchase,3264.77,Clothing,Savings,Card,Successful
+TXN020,CUST013,Katlego Nkosi,2026-01-13,09:42:27,Purchase,1616.94,Electronics,Savings,Card,Successful
+TXN021,CUST011,Neo Mthembu,2026-02-21,16:51:55,Purchase,522.89,Fuel,Cheque,Mobile Banking,Successful
+TXN022,CUST003,Naledi Molefe,2026-02-01,08:28:51,Purchase,3880.92,Clothing,Cheque,Card,Successful
+TXN023,CUST009,Karabo Zulu,2026-01-12,13:10:26,Withdrawal,1600.00,Cash Withdrawal,Cheque,ATM,Failed
+TXN024,CUST003,Naledi Molefe,2026-02-19,14:59:50,Purchase,3540.60,Restaurants,Savings,Mobile Banking,Successful
+TXN025,CUST005,Oratile Khumalo,2026-01-08,07:47:20,Purchase,290.24,Clothing,Savings,Card,Successful
+TXN026,CUST009,Karabo Zulu,2026-01-24,08:38:04,Purchase,3049.82,Fuel,Savings,Card,Failed
+TXN027,CUST010,Refilwe Naidoo,2026-03-18,07:39:05,Purchase,1906.84,Clothing,Savings,Mobile Banking,Successful
+TXN028,CUST012,Boitumelo Mokoena,2026-02-03,18:08:42,Purchase,2917.16,Electronics,Savings,Card,Successful
+TXN029,CUST010,Refilwe Naidoo,2026-01-13,08:34:13,Deposit,5305.90,Cash Deposit,Savings,ATM,Successful
+TXN030,CUST006,Lesedi Ndlovu,2026-02-26,15:39:51,Purchase,2955.00,Groceries,Savings,Card,Failed
+TXN031,CUST003,Naledi Molefe,2026-01-14,10:17:18,Purchase,2735.57,Pharmacy,Savings,Card,Successful
+TXN032,CUST014,Onthatile Molefe,2026-03-04,14:57:58,Purchase,3812.85,Groceries,Savings,Mobile Banking,Successful
+TXN033,CUST006,Lesedi Ndlovu,2026-03-23,14:10:47,Withdrawal,1500.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN034,CUST015,Tebogo Dlamini,2026-01-20,07:53:23,Transfer,8842.02,Transfer,Savings,Online Banking,Successful
+TXN035,CUST006,Lesedi Ndlovu,2026-01-06,17:13:43,Deposit,2870.53,Cash Deposit,Savings,Branch,Failed
+TXN036,CUST012,Boitumelo Mokoena,2026-01-31,11:51:51,Purchase,825.54,Electronics,Cheque,Card,Successful
+TXN037,CUST006,Lesedi Ndlovu,2026-02-22,13:17:10,Withdrawal,400.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN038,CUST014,Onthatile Molefe,2026-02-14,15:52:50,Deposit,8777.57,Cash Deposit,Cheque,ATM,Successful
+TXN039,CUST005,Oratile Khumalo,2026-02-05,17:41:32,Withdrawal,1300.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN040,CUST005,Oratile Khumalo,2026-02-03,07:06:38,Purchase,1975.33,Pharmacy,Savings,Mobile Banking,Successful
+TXN041,CUST009,Karabo Zulu,2026-03-15,12:16:02,Purchase,3199.73,Groceries,Cheque,Mobile Banking,Successful
+TXN042,CUST011,Neo Mthembu,2026-03-21,16:42:54,Deposit,1683.94,Cash Deposit,Savings,Branch,Successful
+TXN043,CUST012,Boitumelo Mokoena,2026-01-17,12:26:42,Purchase,4233.72,Pharmacy,Cheque,Mobile Banking,Successful
+TXN044,CUST014,Onthatile Molefe,2026-02-06,12:27:50,Purchase,2624.63,Pharmacy,Savings,Mobile Banking,Successful
+TXN045,CUST011,Neo Mthembu,2026-03-02,11:42:05,Purchase,1302.11,Pharmacy,Savings,Card,Successful
+TXN046,CUST013,Katlego Nkosi,2026-02-09,13:51:12,Purchase,692.94,Groceries,Cheque,Mobile Banking,Successful
+TXN047,CUST013,Katlego Nkosi,2026-02-23,12:45:44,Purchase,1749.46,Electronics,Cheque,Card,Successful
+TXN048,CUST001,Lebo Mokoena,2026-01-14,19:14:11,Deposit,8139.04,Cash Deposit,Cheque,ATM,Failed
+TXN049,CUST002,Thabo Nkosi,2026-03-01,22:35:38,Purchase,1451.74,Entertainment,Savings,Mobile Banking,Successful
+TXN050,CUST009,Karabo Zulu,2026-01-21,21:28:16,Purchase,3391.68,Entertainment,Savings,Mobile Banking,Successful
+TXN051,CUST005,Oratile Khumalo,2026-02-06,13:17:21,Purchase,1462.50,Clothing,Cheque,Card,Successful
+TXN052,CUST007,Tshepo Maseko,2026-01-28,08:26:26,Transfer,5130.50,Transfer,Savings,Online Banking,Successful
+TXN053,CUST007,Tshepo Maseko,2026-03-16,06:54:56,Purchase,3453.38,Electronics,Savings,Card,Failed
+TXN054,CUST005,Oratile Khumalo,2026-02-23,13:31:14,Withdrawal,900.00,Cash Withdrawal,Savings,ATM,Successful
+TXN055,CUST011,Neo Mthembu,2026-02-21,11:53:29,Transfer,13813.24,Transfer,Savings,Online Banking,Successful
+TXN056,CUST007,Tshepo Maseko,2026-03-01,11:03:16,Purchase,1727.70,Fuel,Savings,Mobile Banking,Successful
+TXN057,CUST015,Tebogo Dlamini,2026-02-23,14:53:05,Purchase,2134.92,Pharmacy,Cheque,Mobile Banking,Successful
+TXN058,CUST002,Thabo Nkosi,2026-03-25,07:48:01,Withdrawal,800.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN059,CUST008,Amogelang Sithole,2026-03-14,12:29:44,Transfer,4029.59,Transfer,Cheque,Online Banking,Successful
+TXN060,CUST003,Naledi Molefe,2026-01-14,06:59:19,Deposit,5970.07,Cash Deposit,Savings,ATM,Successful
+TXN061,CUST012,Boitumelo Mokoena,2026-02-01,09:44:49,Withdrawal,1000.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN062,CUST011,Neo Mthembu,2026-03-06,16:00:54,Purchase,1910.56,Electronics,Cheque,Mobile Banking,Failed
+TXN063,CUST011,Neo Mthembu,2026-02-28,10:27:11,Deposit,7471.06,Cash Deposit,Savings,Branch,Successful
+TXN064,CUST012,Boitumelo Mokoena,2026-02-11,13:53:59,Transfer,1528.28,Transfer,Cheque,Mobile Banking,Successful
+TXN065,CUST011,Neo Mthembu,2026-01-04,21:54:20,Purchase,846.91,Fuel,Savings,Mobile Banking,Successful
+TXN066,CUST015,Tebogo Dlamini,2026-02-05,06:33:12,Transfer,1512.79,Transfer,Savings,Online Banking,Successful
+TXN067,CUST011,Neo Mthembu,2026-02-27,06:05:18,Transfer,3518.55,Transfer,Savings,Mobile Banking,Successful
+TXN068,CUST009,Karabo Zulu,2026-03-12,16:22:44,Purchase,2060.97,Restaurants,Savings,Card,Successful
+TXN069,CUST004,Kagiso Dlamini,2026-03-10,11:12:13,Purchase,3332.87,Restaurants,Savings,Card,Successful
+TXN070,CUST005,Oratile Khumalo,2026-01-23,15:00:45,Purchase,2419.91,Restaurants,Cheque,Card,Successful
+TXN071,CUST012,Boitumelo Mokoena,2026-03-23,21:06:55,Deposit,616.52,Cash Deposit,Savings,Branch,Successful
+TXN072,CUST003,Naledi Molefe,2026-02-02,21:07:52,Deposit,1120.76,Cash Deposit,Cheque,ATM,Successful
+TXN073,CUST013,Katlego Nkosi,2026-02-08,08:15:07,Transfer,8481.58,Transfer,Cheque,Mobile Banking,Successful
+TXN074,CUST008,Amogelang Sithole,2026-03-17,19:19:36,Purchase,2807.89,Clothing,Cheque,Card,Successful
+TXN075,CUST005,Oratile Khumalo,2026-01-21,13:11:35,Transfer,1357.21,Transfer,Savings,Mobile Banking,Successful
+TXN076,CUST008,Amogelang Sithole,2026-01-30,15:45:18,Purchase,3173.84,Electronics,Cheque,Card,Failed
+TXN077,CUST013,Katlego Nkosi,2026-03-17,12:27:07,Withdrawal,1800.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN078,CUST002,Thabo Nkosi,2026-02-09,15:28:07,Purchase,2127.74,Restaurants,Savings,Mobile Banking,Successful
+TXN079,CUST008,Amogelang Sithole,2026-03-18,07:56:27,Purchase,3314.69,Clothing,Savings,Card,Successful
+TXN080,CUST011,Neo Mthembu,2026-03-15,06:48:43,Withdrawal,900.00,Cash Withdrawal,Cheque,ATM,Successful
+TXN081,CUST008,Amogelang Sithole,2026-01-24,19:40:52,Deposit,5171.40,Cash Deposit,Savings,Branch,Successful
+TXN082,CUST006,Lesedi Ndlovu,2026-01-21,16:26:44,Transfer,7558.17,Transfer,Cheque,Mobile Banking,Successful
+TXN083,CUST005,Oratile Khumalo,2026-02-21,22:52:00,Purchase,2971.45,Clothing,Savings,Mobile Banking,Successful
+TXN084,CUST009,Karabo Zulu,2026-03-05,20:48:03,Purchase,943.89,Clothing,Cheque,Mobile Banking,Successful
+TXN085,CUST012,Boitumelo Mokoena,2026-01-04,13:45:10,Transfer,4833.56,Transfer,Savings,Online Banking,Successful
+TXN086,CUST014,Onthatile Molefe,2026-03-01,09:41:53,Deposit,1962.73,Cash Deposit,Savings,Branch,Successful
+TXN087,CUST008,Amogelang Sithole,2026-03-12,10:24:12,Purchase,4151.14,Clothing,Cheque,Card,Successful
+TXN088,CUST013,Katlego Nkosi,2026-02-13,22:17:52,Withdrawal,100.00,Cash Withdrawal,Savings,ATM,Successful
+TXN089,CUST008,Amogelang Sithole,2026-02-14,16:35:48,Transfer,8265.59,Transfer,Savings,Online Banking,Failed
+TXN090,CUST004,Kagiso Dlamini,2026-01-30,19:02:20,Transfer,11234.40,Transfer,Savings,Online Banking,Successful
+TXN091,CUST001,Lebo Mokoena,2026-03-17,16:55:06,Purchase,3938.26,Electronics,Cheque,Mobile Banking,Successful
+TXN092,CUST003,Naledi Molefe,2026-03-25,10:04:30,Purchase,3524.51,Restaurants,Savings,Mobile Banking,Successful
+TXN093,CUST014,Onthatile Molefe,2026-03-28,18:20:40,Purchase,3244.07,Entertainment,Savings,Card,Successful
+TXN094,CUST004,Kagiso Dlamini,2026-02-06,13:47:05,Transfer,6651.08,Transfer,Cheque,Mobile Banking,Successful
+TXN095,CUST005,Oratile Khumalo,2026-01-06,16:50:03,Deposit,3286.99,Cash Deposit,Savings,ATM,Successful
+TXN096,CUST007,Tshepo Maseko,2026-01-24,11:11:05,Transfer,9240.00,Transfer,Cheque,Mobile Banking,Failed
+TXN097,CUST003,Naledi Molefe,2026-03-23,14:29:16,Purchase,3012.44,Entertainment,Savings,Mobile Banking,Successful
+TXN098,CUST003,Naledi Molefe,2026-02-14,15:40:27,Purchase,3117.25,Electronics,Savings,Card,Failed
+TXN099,CUST014,Onthatile Molefe,2026-01-31,18:36:22,Transfer,8728.48,Transfer,Cheque,Mobile Banking,Successful
+TXN100,CUST010,Refilwe Naidoo,2026-01-07,21:53:57,Withdrawal,1000.00,Cash Withdrawal,Savings,ATM,Successful
