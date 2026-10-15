@@ -178,7 +178,7 @@ SELECT
     c.customer_id,
     c.customer_name,
     COUNT(t.transaction_id) AS transaction_count,
-    ROUND(SUM(t.amount), 2) AS total_transaction_value
+    COALESCE(ROUND(SUM(t.amount), 2), 0) AS total_transaction_value
 FROM bank_customers AS c
 LEFT JOIN banking_transactions AS t
     ON c.customer_id = t.customer_id
