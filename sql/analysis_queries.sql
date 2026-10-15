@@ -116,3 +116,35 @@ FROM banking_transactions
 GROUP BY customer_name
 HAVING SUM(amount) > 25000
 ORDER BY total_transaction_value DESC;
+
+
+-- 18. Count transactions by month
+SELECT strftime('%Y-%m', transaction_date) AS transaction_month,
+       COUNT(*) AS transaction_count
+FROM banking_transactions
+GROUP BY transaction_month
+ORDER BY transaction_month;
+
+
+-- 19. Analyse monthly transaction count and total value
+SELECT strftime('%Y-%m', transaction_date) AS transaction_month,
+       COUNT(*) AS transaction_count,
+       SUM(amount) AS total_transaction_value
+FROM banking_transactions
+GROUP BY transaction_month
+ORDER BY total_transaction_value DESC;
+
+
+-- 20. Analyse transactions by time of day
+SELECT
+    CASE
+        WHEN transaction_time >= '06:00:00'
+             AND transaction_time < '12:00:00' THEN 'Morning'
+        WHEN transaction_time >= '12:00:00'
+             AND transaction_time < '18:00:00' THEN 'Afternoon'
+        ELSE 'Evening'
+    END AS time_of_day,
+    COUNT(*) AS transaction_count
+FROM banking_transactions
+GROUP BY time_of_day
+ORDER BY transaction_count DESC;
