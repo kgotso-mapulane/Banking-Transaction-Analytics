@@ -148,3 +148,39 @@ SELECT
 FROM banking_transactions
 GROUP BY time_of_day
 ORDER BY transaction_count DESC;
+
+-- 21. Join transactions with customer information
+SELECT
+    t.transaction_id,
+    t.customer_id,
+    c.customer_name,
+    t.transaction_type,
+    t.amount
+FROM banking_transactions AS t
+INNER JOIN bank_customers AS c
+    ON t.customer_id = c.customer_id;
+
+
+-- 22. Analyse transaction count and total value per customer using INNER JOIN
+SELECT
+    c.customer_name,
+    COUNT(*) AS transaction_count,
+    ROUND(SUM(t.amount), 2) AS total_transaction_value
+FROM banking_transactions AS t
+INNER JOIN bank_customers AS c
+    ON t.customer_id = c.customer_id
+GROUP BY c.customer_name
+ORDER BY total_transaction_value DESC;
+
+
+-- 23. Include all customers using LEFT JOIN
+SELECT
+    c.customer_id,
+    c.customer_name,
+    COUNT(t.transaction_id) AS transaction_count,
+    ROUND(SUM(t.amount), 2) AS total_transaction_value
+FROM bank_customers AS c
+LEFT JOIN banking_transactions AS t
+    ON c.customer_id = t.customer_id
+GROUP BY c.customer_id, c.customer_name
+ORDER BY transaction_count DESC;
